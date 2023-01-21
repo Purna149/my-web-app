@@ -46,7 +46,7 @@ export default function EventDetails() {
                 <div className='date'> <BiCalendar /> {getFormateDateWithYear(eventDetails.DateYear)}</div>
                 <div className='nameOfEvent'>{getCategoryIcon(eventDetails.category)} {eventDetails.category}</div>
                 <div className='totalDiscription'> {eventDetails.discriptionNextpage} </div>
-
+                <h1>hi</h1>
             </div>
 
         </div>
