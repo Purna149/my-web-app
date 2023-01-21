@@ -1,0 +1,125 @@
+.heading {
+    display: flex;
+    margin: 20px;
+    font-size: 23px;
+    font-weight: 700;
+    width: auto;
+}
+
+.headingFirstLetter {
+    color: rgb(173, 217, 86);
+}
+
+.containerHead {
+    display: flex;
+}
+
+.categoryDropDown{
+    margin-left: 20px;
+}
+
+.statusDropDown{
+    margin-left: 20px;
+}
+
+.filterButton{
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Hanalei Fill';
+    background-color: white;
+    font-size: large;
+    font-weight: 900;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: gray;
+    align-items:center;
+   text-align-last: center;
+}
+
+.ShowallEventsParent {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.showallevents {
+    font-family: 'Hanalei Fill';
+    background-color: white;
+    font-size: small;
+    font-weight: 900;
+    width: 175px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: gray;
+}
+
+.bodyContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dateImageParent {
+    flex: 1;
+}
+
+.dateONImageTOP {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.Image {
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.contentParent {
+    flex: 2;
+    margin: 60px 20px 0px 50px;
+}
+
+.dateAtContent {
+    color: rgb(142, 141, 141);
+    margin: 25px 0px 35px 0px;
+}
+
+.discription {
+    color: rgb(142, 141, 141)
+}
+
+.LocationCategoryEventDetailsParent {
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 64px;
+}
+
+.LocationCategory {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.eventDetails {
+    font-family: 'Hanalei Fill';
+    background-color: white;
+    font-size: small;
+    color: yellowgreen;
+    border-color: ghostwhite;
+    border: 'none';
+    border-width: 0px;
+    float: right;
+}
+
+.eventDetailsParent {
+    flex: 1;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-self: center;
+}
